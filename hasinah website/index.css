@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+}
+header{
+    background: lightgreen;
+    height: 105px;
+}
+.navbar{
+    margin-bottom: 40px;
+    margin-left: 40%;
+    word-spacing: 15px;
+    font-family: 'magettas demo';
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+    border: 3px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.navbar a:hover{
+    color: black;
+}
+.body{
+    background-image: url('/images/pexels-bishop-tamrakar-3926124.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 87vh;
+    opacity: 70%;
+}
+.welcome{
+    position: relative;
+    top: 60px;
+    border: 10px solid #fff;
+    border-bottom: 10px;
+    width: 400px;
+    height: 50px;
+    margin-left: 580px;
+    text-align: center;
+    font-weight: 1000;
+    font-size: 60px;
+    color: white;
+    font-family: 'magettas demo';
+}
+.hasinah{
+    text-align: center;
+    font-weight: 1000;
+    color: white;
+    font-family: 'magettas demo';
+    padding-top: 90px;
+}
+/* media section*/
+
+@media (max-width: 1000px){
+    .body{
+        box-sizing: border-box;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 100vh;
+    }
+    .welcome{
+        margin-left: 280px;
+    }
+    .hasinah{
+        margin-left: 150px;
+    }
+}
+
+@media (max-width: 600px){
+    body{
+        box-sizing: border-box;
+        
+    }
+    .navbar a{
+        white-space: nowrap;
+        font-size: 16px;
+    }
+    .body{
+        box-sizing: border-box;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 100vh;
+    }
+    .welcome{
+        width: 300px;
+        height: 50px;
+        font-size: 40px;
+        margin-left: 30%;
+    }
+    .hasinah{
+        margin-top: -5%;
+        margin-left: 150px;
+    }
+}
